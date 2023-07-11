@@ -284,10 +284,10 @@ a:hover {
   display: flex;
 }
 
-.section-4 .column1 {
+/* .section-4 .column1 {
   width: 960px;
   height: 520px;
-}
+} */
 
 .section-4 .container {
   margin-top: 100px;
@@ -318,8 +318,8 @@ a:hover {
 }
 
 .section-4 .column2 {
-  width: 960px;
-  height: 520px;
+  /* width: 960px;
+  height: 520px; */
   background: #3182ce;
 }
 
