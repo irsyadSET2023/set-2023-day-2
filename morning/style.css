@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: "smooth";
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.section-1 {
+  background-color: #c5e6f9;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 30px;
+}
+
+nav {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.menu-items {
+  list-style: none;
+  /* display: inline-block; */
+  float: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* .selector specific */
+.section-1 .text-group {
+  text-align: center;
+  width: 600px;
+  margin: 0-auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-1 .text-group h2 {
+  color: #1a202c;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.section-1 .text-group h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-1 .button-group #getInTouch {
+  all: unset;
+  width: 180px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: var(
+    --btn-bg,
+    linear-gradient(
+      90deg,
+      #0067f4 0%,
+      #0067f4 17.71%,
+      rgba(43, 219, 220, 0.5) 100%
+    )
+  );
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.section-1 .button-group #watchVideo {
+  all: unset;
+  width: 250px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: #fff;
+  color: #3182ce;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+a:hover {
+  color: royalblue;
+}
+
+.section-2 {
+  fill: #fff;
+}
+
+.section-2 .container {
+  text-align: center;
+  width: 1500px;
+  margin-top: 50px;
+}
+
+.outer-column-left {
+  /* height: 600px;
+  width: 600px; */
+  width: 55%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.outer-column-right {
+  /* height: 600px;
+  width: 600px; */
+  width: 40%;
+  display: inline-block;
+}
+
+.section-2 .container .outer-column-right h1 {
+  text-align: left;
+}
+
+.section-2 .container .outer-column-right p {
+  text-align: left;
+}
+
+#serviceLogo {
+  width: 400px;
+}
