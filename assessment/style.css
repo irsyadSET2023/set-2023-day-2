@@ -18,6 +18,7 @@ body {
 
 .section-1 {
   background-color: #c5e6f9;
+  display: flex;
 }
 
 .container {
@@ -178,7 +179,7 @@ a:hover {
 
 .section-3 .container {
   text-align: center;
-  width: 1920px;
+  /* width: 1920px; */
   justify-content: center;
 }
 
