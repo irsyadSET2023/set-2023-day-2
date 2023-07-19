@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: "smooth";
+}
+
+/* section-1 */
+
+.section-1 .container-1 {
+  display: flex;
+  margin: auto 0;
+  justify-content: space-evenly;
+  background: #96a6c0;
+  padding-top: 20px;
+}
+
+.section-1 .text {
+  margin-bottom: 10px;
+}
+
+.section-1 .item {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.section-1 .container-2 {
+  background-image: "background-image: url('assessment/assests/BG Photo.jpg');";
+}
